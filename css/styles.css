@@ -31,6 +31,7 @@ h3,
 h4,
 .main-nav a{
   font-family: 'Varela Round', sans-serif;
+  text-align: center;
 }
 
 h2,
@@ -84,7 +85,6 @@ img {
   padding: 1.1em;
   line-height: 1.2em;
   font-size: 1.1em;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -96,7 +96,25 @@ img {
 
 /* ---- Layout Containers ---- */
 
+.profile{
+  text-align: center;
+  padding: .5em .5em
+}
+
+.portfolio{
+  padding: 1em 1.5em;
+  background-color: white;
+}
+
 /* ---- Page Elements ---- */
+.profile-photo{
+  width: 70%
+}
+
+.profile p{
+  font-size: 1.3em;
+  padding: .5em .5em
+}
 
 /* ================================= 
   Media Queries
