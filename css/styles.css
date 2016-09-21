@@ -43,12 +43,18 @@ a {
 h2{
   margin-bottom: 3em;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 h3{
   font-size: 1.6em;
 }
+
+h4{
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
 a {
 	text-decoration: none;
 }
@@ -109,6 +115,15 @@ img {
   background-color: white;
 }
 
+.main-footer{
+  padding: 3em 1.5em 0 1.5em;
+}
+
+.footer-nav{
+  display: flex;
+  align-items: center;
+}
+
 /* ---- Page Elements ---- */
 .profile-photo{
   width: 65%
@@ -116,6 +131,10 @@ img {
 
 .profile p{
   padding: .5em .5em
+}
+
+.footer-name{
+  margin-right: auto;
 }
 
 /* ================================= 

@@ -11,24 +11,24 @@
   </head>
   
   <body>
-    <header class="main-header">
+    <header id="top" class="main-header">
       <div class="container">
         <h1 class="name">Seth Duncan</h1>
         <ul class="main-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header><!--/.main-header-->  
     
     <main class="site-content">
-      <div class="profile">
+      <div id="home" class="profile">
         <img src="images/responsive-layout-profile.png" alt="Seth Duncan's profile picture" class="profile-photo">
         <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put my skills to use!</p>
       </div><!--/.profile-->  
 
-      <div class="portfolio">
+      <div id="portfolio" class="portfolio">
 
         <h2>Portfolio</h2>
 
@@ -71,19 +71,15 @@
       </div><!--/.portfolio-->  
     </main>
     
-    <footer>
+    <footer id="contact" class="main-footer">
       <h2>Contact</h2>
       <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear more from you!</p>
-      <p>Phone +1 (111) 555-1234</p>
-      <p>Email email@yoursite.com</p>
+      <p class="info">Phone <a href="tel:+11115551234">+1 (111) 555-1234</a><br>
+        Email <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
       <hr>
       <div class="footer-nav">
         <h1 class="footer-name">Seth Duncan</h1>
-        <ul class="footer-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <h4><a href="#top">Back To Top</a></h4>
       </div>
     </footer>
     
