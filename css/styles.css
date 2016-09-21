@@ -7,10 +7,13 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  line-height: 1.9em;
+  color: #7F7F8E;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   background-color: #FAFAFA;
+  text-align: center;
 }
 
 .site-content{
@@ -19,9 +22,7 @@ body{
 
 p{
   font-size: 1.4em;
-  line-height: 1.6em;
-  text-align: center;
-  color: #7F7F8E;
+  margin-bottom: 1.9em;
 }
 
 h1,
@@ -30,7 +31,6 @@ h4,
 .main-nav a{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  text-align: center;
 }
 
 h1,
@@ -42,19 +42,18 @@ a {
 
 h2{
   margin-bottom: 3em;
+}
+
+h2,
+h4{
   text-transform: uppercase;
   font-size: 1.4em;
 }
 
 h3{
-  text-align: center;
   font-size: 1.6em;
 }
 
-h4{
-  text-transform: uppercase;
-  font-size: 1.4em;
-}
 
 a {
 	text-decoration: none;
@@ -70,10 +69,6 @@ img {
 ==================================== */
 
 /* ---- Navigation ---- */
-
-.main-header{
-  padding: 0 1.5em 2.5em 1.5em;
-}
 
 .container,
 .main-nav{
@@ -92,32 +87,39 @@ img {
 
 .main-nav a{
   display: block;
-  padding: 1.1em;
-  line-height: 1.2em;
+  padding: 1em;
   font-size: 1.1em;
   text-transform: uppercase;
 }
 
+.main-nav a:hover {
+	color: #093b58;
+}
+
 .name{
   font-size: 2.5em;
-  text-align: center;
   padding: .2em 1em;
 }
 
 /* ---- Layout Containers ---- */
 
+.main-header{
+  padding: 0 1.5em 2.5em 1.5em;
+}
+
 .profile{
-  text-align: center;
   padding: 1.5em .5em
 }
 
 .portfolio{
-  padding: 3em 1.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 3em 1.5em 1.5em 1.5em;
   background-color: white;
 }
 
 .item{
-  margin-bottom: 2.5em;
+  margin-bottom: .8em;
 }
 
 .main-footer{
