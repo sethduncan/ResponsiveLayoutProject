@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -20,20 +20,20 @@ body{
 p{
   font-size: 1.4em;
   line-height: 1.6em;
-  margin-bottom: 2.9em;
   text-align: center;
   color: #7F7F8E;
 }
 
 h1,
 h2,
-h3,
 h4,
 .main-nav a{
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   text-align: center;
 }
 
+h1,
 h2,
 h3,
 a {
@@ -47,6 +47,7 @@ h2{
 }
 
 h3{
+  text-align: center;
   font-size: 1.6em;
 }
 
@@ -107,7 +108,7 @@ img {
 
 .profile{
   text-align: center;
-  padding: 0 .5em
+  padding: 1.5em .5em
 }
 
 .portfolio{
@@ -115,8 +116,12 @@ img {
   background-color: white;
 }
 
+.item{
+  margin-bottom: 2.5em;
+}
+
 .main-footer{
-  padding: 3em 1.5em 0 1.5em;
+  padding: 3.5em 1.5em 0 1.5em;
 }
 
 .footer-nav{
@@ -133,8 +138,17 @@ img {
   padding: .5em .5em
 }
 
+.item img{
+  margin-bottom: .5em;
+}
+
 .footer-name{
   margin-right: auto;
+  font-size: 1.5em;
+}
+
+hr{
+  margin-top: 4em;
 }
 
 /* ================================= 
