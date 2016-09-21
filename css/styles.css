@@ -7,20 +7,92 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #FAFAFA;
+}
+
+.site-content{
+  flex: 1;
+}
+
+p{
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-bottom: 1.9em;
+  text-align: center;
+  color: #7F7F8E;
 }
 
 h1,
 h2,
 h3,
-h4{
+h4,
+.main-nav a{
   font-family: 'Varela Round', sans-serif;
 }
+
+h2,
+h3,
+a {
+	color: #222222;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.section-title{
+  margin-bottom: 3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
 /* ---- Navigation ---- */
+
+.main-header{
+  padding-bottom: 3.5em;
+}
+
+.container,
+.main-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main-nav li{
+  background-color: white;
+  margin-bottom: .5em;
+  width: 100%;
+  
+}
+
+.main-nav a{
+  display: block;
+  padding: 1.1em;
+  line-height: 1.2em;
+  font-size: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.name{
+  font-size: 2.5em;
+  text-align: center;
+  padding: .5em 1em;
+}
 
 /* ---- Layout Containers ---- */
 
