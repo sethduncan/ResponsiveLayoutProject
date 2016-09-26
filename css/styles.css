@@ -102,11 +102,7 @@ img {
 /* ---- Layout Containers ---- */
 
 .main-header{
-  padding: 0 1em .5em 1em;
-}
-
-.profile{
-  padding: 1.5em .5em
+  padding: 2em 1em;
 }
 
 .profile p{
@@ -153,14 +149,14 @@ img {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #36ACD0;
   color: white;
   padding: 5px 5px;
   margin: 1px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #E0AB26;
 }
 
 .item img,
@@ -240,6 +236,10 @@ hr{
     padding: 1em 2em;
   }
   
+  .footer-nav{
+    margin-bottom: 4em;
+  }
+  
   .back{
     display: none;
   }
@@ -296,8 +296,8 @@ hr{
   }
   
   .clearfix::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+    content: "";
+	display: table;
+    clear: both;
+  }
 }
