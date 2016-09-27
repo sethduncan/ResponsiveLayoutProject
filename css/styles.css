@@ -81,7 +81,8 @@ img {
   width: 100%;
 }
 
-.main-nav a{
+.main-nav a,
+.secondary-nav a{
   display: block;
   padding: .5em;
 }
@@ -194,6 +195,8 @@ hr{
   Media Queries
 ==================================== */
 
+ /* ---- Tablet ---- */
+
 @media (min-width: 768px){
   
   
@@ -211,33 +214,35 @@ hr{
   
   .main-nav ul{
     width: 600px;
-    margin: auto;  
+    align-items: center; 
+    margin: auto;
   }
   
   .main-nav li{
     background-color: #FAFAFA;
+    margin: auto;
   }
   
-  .main-nav a{
-    display: block;
-    padding: .5em;
-  }
   
   .secondary-nav{
     display: flex;
     width: 50%;
-    justify-content:space-around;
+    justify-content: flex-end;
     text-transform: uppercase;
     font-size: .8em;
   }
   
+  .main-nav a{
+    margin: 1em 0 1em 0;
+  }
+  
   .secondary-nav a{
-    display: block;
-    padding: 1em 2em;
+    margin: 1em 0 1em 4em;
+    padding: 1em 0 1em 0em;
   }
   
   .footer-nav{
-    margin-bottom: 4em;
+    margin: 0 4em 4em 4em;
   }
   
   .back{
@@ -292,12 +297,54 @@ hr{
   }
   
   hr{
-    margin-top: 4em
+    margin: 4em 4em 0 4em;
   }
   
   .clearfix::after {
     content: "";
 	display: table;
     clear: both;
+  }
+}
+
+/* ---- Desktop ---- */
+
+@media (min-width: 1024px){
+  
+  /* ---- Navigation ---- */
+  .main-nav{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .name{
+    margin-right: auto;
+  }
+  
+  .main-nav ul{
+    margin-right: -1em;
+  }
+  
+  
+  
+  /* ---- Layout Containers ---- */
+  
+  .main-header,
+  .profile{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  
+  .portfolio{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  
+  /* ---- Page Elements ---- */
+  .profile-photo{
+    margin-left: 3em;
+  }
+  .item {
+    width: 31%;
   }
 }
