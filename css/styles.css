@@ -100,6 +100,10 @@ img {
   display: none;
 }
 
+.footer-nav{
+  align-items: center;
+}
+
 /* ---- Layout Containers ---- */
 
 .main-header{
@@ -135,7 +139,7 @@ img {
 
 /* ---- Page Elements ---- */
 .profile-photo{
-  width: 65%
+  width: 65%;
 }
 
 .portfolio-header{
@@ -156,7 +160,7 @@ img {
   margin: 1px;
 }
 
-.skills li:nth-child(odd) {
+.skills li:nth-child(odd){
   background: #E0AB26;
 }
 
@@ -180,10 +184,6 @@ hr{
 
 .footer-info{
   margin-bottom: 4em;
-}
-
-.footer-nav{
-  align-items: center;
 }
 
 .footer-name{
@@ -220,7 +220,6 @@ hr{
   
   .main-nav li{
     background-color: #FAFAFA;
-    margin: auto;
   }
   
   
@@ -236,9 +235,12 @@ hr{
     margin: 1em 0 1em 0;
   }
   
+  .secondary-nav{
+    margin-right: -.8em;
+  }
+ 
   .secondary-nav a{
-    margin: 1em 0 1em 4em;
-    padding: 1em 0 1em 0em;
+    padding: 1em;
   }
   
   .footer-nav{
@@ -260,12 +262,13 @@ hr{
     padding-right: 1.5em;
   }
   
-  /* ---- Page Elements ---- */
-  
-  .profile{
+    .profile{
     padding: 0 2em 3em 2em;  
   }
   
+  
+  /* ---- Page Elements ---- */
+
   .profile p{
     text-align: left;
     font-size: 1.3em;
@@ -293,7 +296,7 @@ hr{
  
   .footer-info{
     width: 70%;
-    margin: auto
+    margin: auto;
   }
   
   hr{
